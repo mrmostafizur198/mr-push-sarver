@@ -232,13 +232,6 @@ app.delete('/token', async (req, res) => {
   }
 });
 
-const path = require('path');
-
-// index.html ফাইল সার্ভ করার জন্য
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
-});
-
 // ════════════════════════════════════════════════════════════
 const PORT = process.env.PORT || 7860;
 app.listen(PORT, () => console.log(`MR TechLab Studio Push Server running on port ${PORT}`));
