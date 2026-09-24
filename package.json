@@ -1,5 +1,5 @@
 {
-  "name": "mr-techlab-studio-push-server",
+  "name": "push-server",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {

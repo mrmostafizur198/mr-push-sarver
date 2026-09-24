@@ -40,7 +40,7 @@ function appMetaRef(appId) {
 // ════════════════════════════════════════════════════════════
 
 app.get('/', (req, res) => {
-  res.send('MR TechLab Studio Push Server is Running!');
+  res.send('Wevlo Push Notification Server is Running!');
 });
 
 // ── Debug: দেখো এখন সার্ভারে কোন credential লোড হয়েছে ──
@@ -234,4 +234,4 @@ app.delete('/token', async (req, res) => {
 
 // ════════════════════════════════════════════════════════════
 const PORT = process.env.PORT || 7860;
-app.listen(PORT, () => console.log(`MR TechLab Studio Push Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Wevlo Push Server running on port ${PORT}`));
